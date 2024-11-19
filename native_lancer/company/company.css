@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: rgb(0, 136, 255);
+}
+
+.company {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+    .company h2 {
+        margin-top: 0;
+    }
+
+    .company p {
+        margin-bottom: 0;
+    }
+
+section {
+    display: flex;

@@ -1,0 +1,176 @@
+
+.body-section{
+    background-color:transparent;
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 0;
+}
+
+.content-area-sD, .content-area-edit_M {
+    color:rgb(41, 158, 208) ;
+    transition: 5s;
+
+}
+
+/*     ------------------- FORM CSS overall-------------------- */
+.interview-form fieldset{
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-left: 600px;
+    width: 550px;
+    height: fit-content;
+    border: 3px aliceblue solid;
+    box-shadow: 5px 15px;
+
+}
+
+.intew-legend{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.interview-form label {
+    color: rgb(41, 158, 208);
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-weight: lighter;
+}
+.interview-form fieldset input {
+    border-radius: 25px;
+    background-color: rgb(166, 173, 196);
+    color: rgb(14, 23, 41);
+    height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.interview-form fieldset input:hover{
+    box-shadow: 2px 5px;
+    width: auto;
+}
+#Fname, #Lname  {
+    width: fit-content;
+}
+.interview-form button{
+    width: 70px;
+    background-color: rgb(41, 158, 208);
+    color: aliceblue;
+    
+    padding: 5px;
+    margin-top: 35px;
+    border-radius: 25px;
+    box-shadow: 3px 5px;
+}
+.intwS-submit{
+    margin-left: 50%;
+    font-size: 15px;
+    height: fit-content;
+}
+.club-reset{
+    font-size: 10px;
+    height: 23px;
+    text-align: center;
+}
+.interview-form button:hover{
+    cursor: pointer;
+    background-color: teal;
+    color: red;
+    width: 70px;
+}
+/* end forms */
+
+.content-area-sD {
+    background: url('../native-club/images/SdMeeting.svg')no-repeat;
+    background-size:500px;
+}
+
+.content-area-edit_M {
+    background: url('../native-club/images/edit.svg')no-repeat;
+    background-size:550px;
+}
+.content-area-d{
+    background: url('../native-club/images/display.svg')no-repeat;
+    background-size:500px;
+}
+/* delete form in edit part */
+
+.delete-form{
+    box-sizing: border-box;
+    color: brown;
+    border-radius: 25px;
+    margin-left: 500px;
+    width: 600px;
+    height: fit-content;
+    border: 3px aliceblue solid;
+    box-shadow: 2px 5px;
+}
+.delete-form label{
+    cursor: pointer;
+}
+.delete-form button{
+    cursor: pointer;
+    width: 70px;
+    background-color: darkred;
+    color: aliceblue;
+    
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 5px;
+}
+.delete-form button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: rgb(2, 0, 48);
+    width: 70px;
+}
+.delete-form input
+ {
+    border-radius: 25px;
+    background-color: rgb(166, 173, 196);
+    color: rgb(14, 23, 41);
+    height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    justify-content: space-around;
+ }
+
+.ft{
+    padding:2px;
+    border:1px solid indianred;
+    margin-left:605px;
+    overflow: scroll;
+    height:350px;
+    box-shadow:0px 0px 50px rgb(5 136 150);
+    
+
+}
+.ft th{
+        color:orange;
+}
+.ft td{
+    color: 50px 0px 10px rgb(80 50 200);
+}
+.ft th, .ft td{
+    border-style:dashed solid ;
+}
+td{
+    padding:10px;
+}
+.ft button{
+    width: 70px;
+    background-color: rgb(41, 158, 208);
+    color: aliceblue;
+    
+    padding: 1px;
+    margin-top: 35px;
+    border-radius: 25px;
+    box-shadow: 3px 5px;
+}
+.body-section{
+    height:900px;
+}

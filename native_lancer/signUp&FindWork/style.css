@@ -1,0 +1,88 @@
+.container {
+    width: 600px;
+    height: 725px;
+    background-color:cadetblue;
+    padding: 70px;
+    margin-left: auto;
+    border-radius: 10px; 
+    float:right;
+}
+.container1 {
+    background-color: aqua;
+    width: 49%;
+    height: 864px;
+    float: left;
+    border-radius: 10px;
+    
+}
+
+.text {
+    border-radius: 10px;
+    width:500px;
+    height:35px;
+    border: 2px solid tomato;
+    margin: 5px;
+    font-size: 1.3em;
+}
+
+.button {
+    margin: 25px 45px;
+    border-radius: 40px;
+    padding: 10px 50px;
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-family:Tahoma;
+}
+
+.labal{
+    font-size:23px;
+    padding:5px;
+    font-family:Verdana;
+}
+
+h2{
+    font-size:80px;
+    font-family:'Lucida Console';
+}
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+.img {
+    width: 750px;
+    height: 150px;
+  
+    
+}
+.img2 {
+    width: 750px;
+    height: 600px;
+}
+.img3 {
+    width: 40px;
+    height: 40px;
+    margin:10px;
+    padding:11px;
+}
+
+
+body{
+    background-color:blueviolet;
+
+}
+button:hover {
+    color: #255784;
+    transition: 1s;
+    transform: scale(1.2);
+    background: #2196f3;
+    box-shadow: 0 0 10px,0 0 40px #2196f3, 0 0 10px #2196f3
+}
+.regis {
+    background-color: #008000;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}

@@ -1,0 +1,47 @@
+html{
+    font-size: 16px;
+}
+body{
+    background-color:rgb(35, 55, 98);
+}
+.body-section{
+    height: 880px;
+}
+
+.signup{
+    text-align: center;
+    background-color: rgb(209, 234, 255);
+    width: 500px;
+    height: 550px;
+    margin-left: 30%;
+    border-radius: 20px;
+}
+
+.signup-form{
+    width: 500px;
+    height: 450px;
+}
+
+.signup-submit{
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.signup-title{
+    background-color: rgb(130, 141, 214);
+    border-radius: 20px;
+    width: 500px;
+    height: 50px;
+    
+}
+.update {
+    height: 40px;
+width: 80px;
+font-size: 15px;
+cursor: pointer;
+margin-left: 30%;
+border-radius: 20px;
+}
+

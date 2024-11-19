@@ -1,0 +1,44 @@
+
+.body-section{
+
+    height: 1100px;
+}
+.nClub-A{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2px;
+}
+.sdMeet-int-pic{
+    grid-column: 1;
+}
+.edit-int-pic{
+    grid-column: 2;
+}
+.nClub-B{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2px;
+}
+.join-int-pic{
+    grid-column: 1;
+}
+.meet-int-pic{
+    grid-column: 2;
+}
+.nClub-A div, .nClub-B div {
+    border: 5px rgb(9, 139, 191) solid;
+    border-radius: 25px;
+}
+.nClub-A a, .nClub-B a{
+    text-decoration: none;
+    text-align: center;
+    color:  red;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#nav-buttonD {
+    cursor: not-allowed;
+}
+.nClub-A img, .nClub-B img{
+    width: 80%;
+}

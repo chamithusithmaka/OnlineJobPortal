@@ -1,0 +1,139 @@
+.select-area select{
+    background-color: aliceblue;
+}
+
+.select-area{
+    color:rgb(0, 136, 255) ;
+}
+.content-area {
+    background: url('join.svg')no-repeat;
+    background-size:525px;
+    color:rgb(0, 136, 255) ;
+
+}
+.que{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: wavy;
+    text-transform: capitalize;
+
+}
+.arti-club{
+    color:darkgreen;
+}
+.sign-up-h3 {
+    color: red;
+    font-size: 25px;
+}
+.nativ-form h4{
+    text-decoration: solid;
+    margin-left: 55%;
+    padding-top: 0px;
+}
+
+.nativ-form fieldset{
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-left: 600px;
+    width: 550px;
+    height: fit-content;
+    border: 3px aliceblue solid;
+    box-shadow: 5px 12px;
+    
+}
+
+.club-legend{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.nativ-form label {
+    color: rgb(0, 136, 255);
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-weight: lighter;
+}
+.nativ-form fieldset input {
+    border-radius: 25px;
+    background-color: rgb(0, 136, 255);
+    color: aliceblue;
+    height: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    align-items: center;
+}
+.gender{
+    margin-left: 50px;
+}
+.nativ-form fieldset input:hover{
+    box-shadow: 2px 5px;
+    color: red;
+    width: auto;
+}
+#Fname, #Lname  {
+    width: fit-content;
+}
+.club-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.nativ-form button{
+    width: 50px;
+    background-color: rgb(0, 136, 255);
+    color: aliceblue;
+    
+    padding: 5px;
+    margin-top: 35px;
+    border-radius: 25px;
+    box-shadow: 3px 5px;
+}
+.club-join{
+    margin-left: 50%;
+    font-size: 15px;
+    height: fit-content;
+}
+.club-reset{
+    font-size: 10px;
+    height: 23px;
+    text-align: center;
+}
+.nativ-form button:hover{
+    cursor: pointer;
+    background-color: teal;
+    color: red;
+    width: 70px;
+}
+
+
+@media(width > 1000px)
+{
+    .body-section{
+        grid-template-columns: 12% 88%;
+    }
+    .select-area form{
+        margin-left: 350px;
+        width: 600px;
+    }
+    
+.country-select-box{
+    margin-left: 10px;
+}
+    .job-field{
+        margin-left: 50px;
+
+    }
+    .select-area form button{  /*filter button*/
+        margin-left: 50px;
+    }
+}
+
+@media(width < 550px){
+    .select-area{
+        visibility: hidden;
+    }
+
+}

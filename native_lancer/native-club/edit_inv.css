@@ -1,0 +1,102 @@
+
+.body-section{
+    background-color:transparent;
+    height: 520px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+    margin: 0;
+}
+
+.content-area {
+    background: url('edit.svg')no-repeat;
+    background-size:525px;
+    color:rgb(41, 158, 208) ;
+
+}
+.que{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: wavy;
+    text-transform: capitalize;
+
+}
+.arti-club{
+    color:darkgreen;
+}
+.sign-up-h3 {
+    color: red;
+}
+.nativ-form h4{
+    text-decoration: solid;
+    margin-left: 55%;
+    padding-top: 0px;
+}
+
+.interview-form fieldset{
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-left: 600px;
+    width: 550px;
+    height: fit-content;
+    border: 3px aliceblue solid;
+    box-shadow: 5px 15px;
+
+}
+.intew-legend{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.interview-form label {
+    color: rgb(41, 158, 208);
+    text-transform: capitalize;
+    text-decoration: solid;
+    font-weight: lighter;
+}
+.interview-form fieldset input {
+    border-radius: 25px;
+    background-color: rgb(41, 158, 208);
+    color: aliceblue;
+    height: 20px;
+    padding: 5px;
+    margin-top: 10px;
+    align-items: center;
+}
+.interview-form fieldset input:hover{
+    box-shadow: 2px 5px;
+    color: red;
+    width: auto;
+}
+#Fname, #Lname  {
+    width: fit-content;
+}
+.interview-form button{
+    width: 70px;
+    background-color: rgb(41, 158, 208);
+    color: aliceblue;
+    
+    padding: 5px;
+    margin-top: 35px;
+    border-radius: 25px;
+    box-shadow: 3px 5px;
+}
+.intwS-submit{
+    margin-left: 50%;
+    font-size: 15px;
+    height: fit-content;
+}
+.club-reset{
+    font-size: 10px;
+    height: 23px;
+    text-align: center;
+}
+.interview-form button:hover{
+    cursor: pointer;
+    background-color: teal;
+    color: red;
+    width: 70px;
+}
